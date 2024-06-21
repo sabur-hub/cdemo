@@ -1,0 +1,84 @@
+.addData1Container {
+    width: 40%;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 50px auto;
+    padding: 40px 60px;
+    font-family: Arial, sans-serif;
+}
+
+.addData1Container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.addData1Container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.addData1Container form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.addData1Container form input:focus {
+    border-color: #6a1b9a;
+}
+
+.addData1Container form .hh {
+    text-decoration: none;
+    background-color: #6a1b9a;
+    color: white;
+    font-weight: 600;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+    text-align: center;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addData1Container form .hh:hover {
+    background-color: #4a148c;
+}
+/* Common Modal Input Styles */
+.modalInput {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.modalInput:focus {
+    border-color: #6a0dad;
+}
+
+/* Common Modal Button Styles */
+.modalButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6a0dad;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.modalButton:hover {
+    background-color: #4b0082;
+}
